@@ -4,7 +4,7 @@
    
 2. Características del sistema
    - Detallar cuáles características serán obligatorias de realizar y cuáles serán las optativas / futuras mejoras
-3. Estado del arte / Antecedentes Implementaciones previas.
+3. Estado del arte / Antecedentes / Implementaciones previas.
 
 4. Estudio de Factibilidad - Investigación de soluciones 
    - Realizar una investigación de cómo implementar el proyecto y proponer. posibles soluciones comparándolas.
@@ -25,4 +25,9 @@
 
 
 ### 1. Descripción de la problematica
-###
+### 2. Características del sistema
+### 3. Estado del arte / Antecedentes / Implementaciones previas.
+### 4. Estudio de Factibilidad - Investigación de soluciones 
+### 5. Diagrama de Bloques 
+### 6. Análisis de Costos
+### 7. Planificación y distribución de Tareas
