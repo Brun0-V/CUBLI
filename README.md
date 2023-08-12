@@ -57,7 +57,7 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
 Total |                                                 | (PRECIO TOTAL)
 </div>
 
-*Todos los precios son tasados al ()
+*Todos los precios son tasados al (dd/mm/yyyy)
 ### 7. Planificación y distribución de Tareas
 » Identificar las etapas (y sub-etapas) para la realización del proyecto. 
 Describir cada una de las etapas (y sub-etapas). 
