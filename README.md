@@ -28,7 +28,7 @@ Como caracteristicas obligatorias, el cubo debe contar con un microcontrolador, 
 - Describan en detalle cada uno de los bloques y sus relaciones.
 - Detallar las etapas que van ser obligatorias de realizar con su funcionamiento y detallar que etapas serán opcionales y de implementaciones futuras
 
-![Diagrama de bloques simplificada](Images\Diagrama-Bloques.png)
+![Diagrama de bloques simplificado](Images/Diagrama-Bloques.png)
 
 ### 6. Análisis de Costos
 
@@ -37,16 +37,17 @@ Como caracteristicas obligatorias, el cubo debe contar con un microcontrolador, 
  Cant |                       Item                      | Precio
 :----:|-------------------------------------------------|---------
  1    |          ESP32 - Wi-Fi & Bluetooth MCU          | 4200AR$ / 7U$D*
- 1    |      Modulo Acelerometro Giróscopo Mpu6050      | 1800AR$ / 3U$D*
- 3    | 12-bit Magnetic Rotary Position Sensor (AS5600) | 2000 AR$ / 3.3 U$D*
+ 1    |      Modulo Acelerometro Giróscopo MPU6050      | 1800AR$ / 3U$D*
+ 3    |  12-bit Magnetic Rotary Position Sensor AS5600  | 2000 AR$ / 3.3 U$D*
  3    |                     (MOTOR)                     | (PRECIO)*
  1    |                    (BATERIA)                    | (PRECIO)*
-Total |                                                 |(PRECIO TOTAL)
+Total |                                                 | (PRECIO TOTAL)
 </div>
 
-*Todos los precios son tasados al 12/8/2023
+*Todos los precios son tasados al ()
 ### 7. Planificación y distribución de Tareas
 » Identificar las etapas (y sub-etapas) para la realización del proyecto. 
 Describir cada una de las etapas (y sub-etapas). 
-Identificar, de forma clara y concisa, las correlatividades, los objetivos a lograr en cada una, y los pasos a realizar para concretarlas. Distribución de tareas entre los miembros del grupo. 
+Identificar, de forma clara y concisa, las correlatividades, los objetivos a lograr en cada una, y los pasos a realizar para concretarlas. 
+Distribución de tareas entre los miembros del grupo. 
 Diagramación de los tiempos de cada etapa (y sub-etapas)
