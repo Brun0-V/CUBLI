@@ -26,9 +26,9 @@ Como caracteristicas obligatorias, el cubo debe contar con un microcontrolador, 
 ### 5. Diagrama de Bloques 
 » Realizar un diagrama en donde se detallen los bloques funcionales (no la tecnología empleada) y la relación entre cada uno.
 - Describan en detalle cada uno de los bloques y sus relaciones.
-- Detallar las etapas que van ser obligatorias de realizar con su funcionamiento y detallar
-que etapas serán opcionales y de implementaciones futuras
+- Detallar las etapas que van ser obligatorias de realizar con su funcionamiento y detallar que etapas serán opcionales y de implementaciones futuras
 
+![Diagrama de bloques simplificada](Images\Diagrama-Bloques.png)
 
 ### 6. Análisis de Costos
 
