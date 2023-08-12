@@ -30,6 +30,19 @@ Como caracteristicas obligatorias, el cubo debe contar con un microcontrolador, 
 
 ![Diagrama de bloques simplificado](Images/Diagrama-Bloques.png)
 
+Este diagrama de bloques se divide en 4 (cuatro) partes:
+- **Sensores**: En ésta se encuentran los sensores que se utilizarán en el proyecto:
+  - Sensor de Efecto Hall: Este sensor determina la posición angular absoluta de cada motor para su manejo de forma precisa.
+  - Acelerómetro: Este sensor mide la aceleración del dispositivo, trabaja en conjunto con el giroscópio.
+  - Giroscópio: Este sensor sirve para medir, mantener o cambiar la orientación en el espacio del dispositivo.
+- **Procesadores**: En ésta se encuentran los elementos de procesado que se utilizarán en el proyecto:
+  - Microcontrolador: Este es el encargado de todo el procesamiento y acondicionamiento de los datos enviados desde los sensores hacia el mismo, para luego ser enviados a los actuadores.
+- **Actuadores**: En ésta se encuentran los actuadores utilizados en el proyecto:
+  - Motores: Éstos son los encargados de cambiar el movimiento angular del dispositivo logrando, con ordenes enviadas del microcontrolador, mantener el dispositivo balanceado.
+- **Comunicación**: 
+
+
+
 ### 6. Análisis de Costos
 
 <div align="center">
