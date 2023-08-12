@@ -1,6 +1,6 @@
 # Ante proyecto | Vega Ferrería <!-- omit from toc -->
 
-## Indice <!-- omit from toc -->
+### Indice <!-- omit from toc -->
 - [1. Descripción de la problemática](#1-descripción-de-la-problemática)
 - [2. Características del sistema](#2-características-del-sistema)
 - [3. Estado del arte / Antecedentes / Implementaciones previas.](#3-estado-del-arte--antecedentes--implementaciones-previas)
