@@ -34,18 +34,17 @@ que etapas serán opcionales y de implementaciones futuras
 
 <div align="center">
 
-Cant |                       Item                      | Precio
-:---:|-------------------------------------------------|---------
- 1   |          ESP32 - Wi-Fi & Bluetooth MCU          | 4200AR$ / 7U$D**
- 1   |      Modulo Acelerometro Giróscopo Mpu6050      | 1800AR$ / 3U$D**
- 1*  | 12-bit Magnetic Rotary Position Sensor (AS5600) | 2000 AR$ / 3.3 U$D**
- 1*  |                     (MOTOR)                     | (PRECIO)**
- 1   |                    (BATERIA)                    | (PRECIO)**
-
+ Cant |                       Item                      | Precio
+:----:|-------------------------------------------------|---------
+ 1    |          ESP32 - Wi-Fi & Bluetooth MCU          | 4200AR$ / 7U$D*
+ 1    |      Modulo Acelerometro Giróscopo Mpu6050      | 1800AR$ / 3U$D*
+ 3    | 12-bit Magnetic Rotary Position Sensor (AS5600) | 2000 AR$ / 3.3 U$D*
+ 3    |                     (MOTOR)                     | (PRECIO)*
+ 1    |                    (BATERIA)                    | (PRECIO)*
+Total |                                                 |(PRECIO TOTAL)
 </div>
-*Cantidad por eje de balanceo
 
-**Todos los precios son tasados al 12/8/2023
+*Todos los precios son tasados al 12/8/2023
 ### 7. Planificación y distribución de Tareas
 » Identificar las etapas (y sub-etapas) para la realización del proyecto. 
 Describir cada una de las etapas (y sub-etapas). 
