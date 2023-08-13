@@ -36,6 +36,11 @@ En la búsqueda de soluciones para proyectos similares o relacionados con el con
 ### 4. Estudio de Factibilidad - Investigación de soluciones 
 » Realizar una investigación de cómo implementar el proyecto y proponer posibles soluciones comparándolas.
 
+Como ya se vió antes, éste proyecto ya ha sido construído por investigadores de ETH Zürich y basandonos en su [paper original](https://folk.ntnu.no/skoge/prost/proceedings/ecc-2013/data/papers/0829.pdf) se basó la matemática empleada en el proyecto.
+
+Luego que dichos investigadores publicaran un [video](https://www.youtube.com/watch?v=n_6p-1J551Y) demostrando el funcionamiento de "Cubli", este se hizo ampliamente famoso, llevando a más personas ajenas al proyecto original a recrearlo. Uno de esos fue un grupo de investigación, entre almunos y profesores del MIT, que demuestran que esta tecnología podria ser usada para robots modulares, que cambiaran su estructura para cada tarea necesaria ([Entrevista Original](https://www.youtube.com/watch?v=6aZbJS6LZbs)).
+
+Por fuera de grandes instituciones como lo es el MIT, numerosos estudiantes y personas aficionadas con la electrónica crearon sus propias versiones del robot "Cubli". Se dejan algunos que se consideran útiles en [este archivo](Resources/Links/Cubli-remakes.md)
 
 
 ### 5. Diagrama de Bloques 
@@ -43,7 +48,7 @@ En la búsqueda de soluciones para proyectos similares o relacionados con el con
 - Describan en detalle cada uno de los bloques y sus relaciones.
 - Detallar las etapas que van ser obligatorias de realizar con su funcionamiento y detallar que etapas serán opcionales y de implementaciones futuras
 
-![Diagrama de bloques simplificado](Images/Diagrama-Bloques.png)
+![Diagrama de bloques simplificado](Resources/Images/Diagrama-Bloques.png)
 
 Este diagrama de bloques se divide en 4 (cuatro) partes:
 - **Sensores**: En ésta se encuentran los sensores que se utilizarán en el proyecto:
