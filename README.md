@@ -12,6 +12,8 @@
 
 ### 1. Descripción de la problemática
 
+
+
 ### 2. Características del sistema
 » Detallar cuáles características serán obligatorias de realizar y cuáles serán las optativas / futuras mejoras
 
@@ -20,13 +22,13 @@ Como caracteristicas obligatorias, el cubo debe contar con un microcontrolador, 
 ### 3. Estado del arte / Antecedentes / Implementaciones previas.
 En la búsqueda de soluciones para proyectos similares o relacionados con el control y la estabilidad en la robótica, se pueden encontrar varios antecedentes que destacan por su enfoque en el equilibrio y el movimiento dinámico de objetos. Uno de los ejemplos más notables es el "Cubli," un dispositivo robótico desarrollado por investigadores de ETH Zürich que presenta las siguientes características clave:
 
-- Equilibrio sobre una esquina: El Cubli es capaz de mantenerse en equilibrio sobre una de sus esquinas. Esta habilidad demuestra un control preciso del centro de masa y conceptos avanzados de estabilidad.
+- **Equilibrio sobre una esquina**: El Cubli es capaz de mantenerse en equilibrio sobre una de sus esquinas. Esta habilidad demuestra un control preciso del centro de masa y conceptos avanzados de estabilidad.
 
-- Control de movimiento: Además del equilibrio estático, el Cubli puede realizar giros y cambios de posición en el aire. Este control se logra mediante ruedas de reaccion controladas de manera individual.
+- **Control de movimiento**: Además del equilibrio estático, el Cubli puede realizar giros y cambios de posición en el aire. Este control se logra mediante ruedas de reaccion controladas de manera individual.
 
-- Plataforma de investigación: El Cubli no solo es una creación impresionante por sí misma, sino que también funciona como una plataforma de investigación. Permite explorar y demostrar conceptos avanzados en control, mecánica y dinámica de sistemas robóticos.
+- **Plataforma de investigación**: El Cubli no solo es una creación impresionante por sí misma, sino que también funciona como una plataforma de investigación. Permite explorar y demostrar conceptos avanzados en control, mecánica y dinámica de sistemas robóticos.
 
-- Aplicaciones potenciales: Aunque el Cubli puede no tener aplicaciones prácticas directas, sus conceptos y tecnologías pueden ser relevantes para sistemas de estabilización, maniobras espaciales y otras áreas de la robótica donde el control de movimiento y la estabilidad son esenciales.
+- **Aplicaciones potenciales**: Aunque el Cubli puede no tener aplicaciones prácticas directas, sus conceptos y tecnologías pueden ser relevantes para sistemas de estabilización, maniobras espaciales y otras áreas de la robótica donde el control de movimiento y la estabilidad son esenciales.
 
 ### 4. Estudio de Factibilidad - Investigación de soluciones 
 » Realizar una investigación de cómo implementar el proyecto y proponer posibles soluciones comparándolas.
@@ -70,6 +72,7 @@ Total |                                                 | (PRECIO TOTAL)
 </div>
 
 *Todos los precios son tasados al (dd/mm/yyyy)
+
 ### 7. Planificación y distribución de Tareas
 » Identificar las etapas (y sub-etapas) para la realización del proyecto. 
 Describir cada una de las etapas (y sub-etapas). 
