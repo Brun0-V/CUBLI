@@ -36,7 +36,7 @@ En la búsqueda de soluciones para proyectos similares o relacionados con el con
 ### 4. Estudio de Factibilidad - Investigación de soluciones 
 » Realizar una investigación de cómo implementar el proyecto y proponer posibles soluciones comparándolas.
 
-Como ya se vió antes, éste proyecto ya ha sido construído por investigadores de ETH Zürich y basandonos en su [paper original](https://folk.ntnu.no/skoge/prost/proceedings/ecc-2013/data/papers/0829.pdf) se basó la matemática empleada en el proyecto.
+Como ya se vió antes, éste proyecto ya ha sido construído por investigadores de ETH Zürich y sobre su [paper original](https://folk.ntnu.no/skoge/prost/proceedings/ecc-2013/data/papers/0829.pdf) se basó la matemática empleada en el proyecto.
 
 Luego que dichos investigadores publicaran un [video](https://www.youtube.com/watch?v=n_6p-1J551Y) demostrando el funcionamiento de "Cubli", este se hizo ampliamente famoso, llevando a más personas ajenas al proyecto original a recrearlo. Uno de esos fue un grupo de investigación, entre almunos y profesores del MIT, que demuestran que esta tecnología podria ser usada para robots modulares, que cambiaran su estructura para cada tarea necesaria ([Entrevista Original](https://www.youtube.com/watch?v=6aZbJS6LZbs)).
 
