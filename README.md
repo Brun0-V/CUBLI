@@ -48,6 +48,7 @@ Como microcontrolador se utilizará el ESP32 y algunas de las razones por la que
 
 Como acelerometro y giroscópio se utilizará el módulo MPU6050 ya que este cuenta con un acelerómetro de tres ejes que puede medir la aceleración lineal en las direcciones X, Y y Z.  Este módulo también incluye un giroscopio de tres ejes que mide la velocidad angular de rotación en torno a los mismos ejes (X, Y y Z). Esto permite detectar cambios en la orientación y la rotación. Y por último el MPU6050 se comunica a través del protocolo de comunicación I2C (Inter-Integrated Circuit), lo que lo hace fácil de integrar con el microcontrolador.
 
+Para controlar los motores se necesitarán 2 componentes, un puente H y un sensor de Efecto Hall. Como puente H se utilizará {**PUENTE H**} y como sensor de Efecto Hall se utilizará un sensor absoluto magnetico de 12 bits, que con una interfaz I2C, se comunicará con el ESP32 para informar la posición angular absoulta de cada motor.
 
 ### 5. Diagrama de Bloques 
 » Realizar un diagrama en donde se detallen los bloques funcionales (no la tecnología empleada) y la relación entre cada uno.
