@@ -13,8 +13,9 @@
 ### 1. Descripción de la problemática
 El proyecto presentado consiste del balanceo de figuras, en este caso un cubo, sobre uno o más de sus ejes. Ésto es logrado a través del uso de ruedas de reacción para invertir la caída del cubo, logrando asi la estabilidad del mismo sobre una arista o esquina de este.
 
-Esta tecnología puede ser transpolado a un caso mucho mayor, como el posicionamiento de objetos en el espacio, donde poder reajustar el angulo de estos sin el uso de combustibles.
+Esta tecnología puede ser transpolada a un caso mucho mayor, como el posicionamiento de objetos en el espacio, donde poder reajustar el angulo de estos sin el uso de combustibles.
 
+Junto a su uso en la ingeniería espacial, el proyecto da una introducción a los alumnos a nuevas tecnologías como el control PID (**P**roporcional, **I**ntegral, **D**erivativo) y abre la puerta para el aprendizaje sobre todo el respaldo que le dá la fisica al mismo. 
 
 ### 2. Características del sistema
 » Detallar cuáles características serán obligatorias de realizar y cuáles serán las optativas / futuras mejoras
