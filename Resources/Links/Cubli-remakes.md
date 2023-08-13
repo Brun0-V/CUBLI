@@ -1,5 +1,5 @@
 ### Video Original del ETH Zürich:
-
+[![](https://markdown-videos-api.jorgenkh.no/youtube/{6aZbJS6LZbs})](https://youtu.be/{6aZbJS6LZbs})
 https://www.youtube.com/watch?v=n_6p-1J551Y
 
 ### Entrevista a estudiantes del MIT:
@@ -27,5 +27,5 @@ https://www.youtube.com/watch?v=qasl0gNsAUA
 https://www.youtube.com/watch?v=83wC_mgGU2E
 
 https://www.youtube.com/watch?v=gV46UMgeji0
- 
+
 https://www.youtube.com/watch?v=I7X17kt6U8E
