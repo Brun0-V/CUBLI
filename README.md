@@ -40,7 +40,12 @@ Como ya se vió antes, éste proyecto ya ha sido construído por investigadores 
 
 Luego que dichos investigadores publicaran un [video](https://www.youtube.com/watch?v=n_6p-1J551Y) demostrando el funcionamiento de "Cubli", este se hizo ampliamente famoso, llevando a más personas ajenas al proyecto original a recrearlo. Uno de esos fue un grupo de investigación, entre almunos y profesores del MIT, que demuestran que esta tecnología podria ser usada para robots modulares, que cambiaran su estructura para cada tarea necesaria ([Entrevista Original](https://www.youtube.com/watch?v=6aZbJS6LZbs)).
 
-Por fuera de grandes instituciones como lo es el MIT, numerosos estudiantes y personas aficionadas con la electrónica crearon sus propias versiones del robot "Cubli". Se dejan algunos que se consideran útiles en [este archivo](Resources/Links/Cubli-remakes.md)
+Por fuera de grandes instituciones como lo es el MIT, numerosos estudiantes y personas aficionadas con la electrónica crearon sus propias versiones del robot "Cubli". Se dejan algunos que se consideran útiles en [este archivo](Resources/Links/Cubli-remakes.md).
+
+Una vez investigado multiples soluciones, se evaluaron cuales partes de cada uno se usarán en el proyecto que se hará.
+
+Como microcontrolador se utilizará el ESP32 y algunas de las razones por la que se lo eligió son: Su conectividad inalambrica, ya que cuenta con conexión inalambrica tanto por Wi-Fi como por Bluetooth; Su potente capacidad de procesamiento, este posee una velocidad de reloj de hasta 240 MHz y ofrece una capacidad de procesamiento significativa para ejecutar aplicaciones complejas; Y por último, su amplia gama de periféricos, ya que la placa ESP32 cuenta con una variedad de interfaces y periféricos, como puertos GPIO, UART, SPI, I2C, ADC y DAC, lo que permite interactuar con sensores, actuadores y otros dispositivos.
+
 
 
 ### 5. Diagrama de Bloques 
