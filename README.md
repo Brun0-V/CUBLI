@@ -33,13 +33,14 @@ Como caracteristicas obligatorias, el cubo debe contar con un microcontrolador, 
 Este diagrama de bloques se divide en 4 (cuatro) partes:
 - **Sensores**: En ésta se encuentran los sensores que se utilizarán en el proyecto:
   - Sensor de Efecto Hall: Este determina la posición angular absoluta de cada motor para su manejo de forma precisa.
-  - Acelerómetro: Este mide la aceleración del dispositivo, trabaja en conjunto con el giroscópio.
-  - Giroscópio: Este sirve para medir, mantener o cambiar la orientación en el espacio del dispositivo.
+  - Acelerómetro: Este mide la aceleración del robot, trabaja en conjunto con el giroscópio.
+  - Giroscópio: Este sirve para medir, mantener o cambiar la orientación en el espacio del robot.
 - **Procesadores**: En ésta se encuentran los elementos de procesado que se utilizarán en el proyecto:
   - Microcontrolador: Este es el encargado de todo el procesamiento y acondicionamiento de los datos enviados desde los sensores hacia el mismo, para luego ser enviados a los actuadores.
 - **Actuadores**: En ésta se encuentran los actuadores utilizados en el proyecto:
-  - Motores: Éstos son los encargados de cambiar el movimiento angular del dispositivo logrando, con ordenes enviadas del microcontrolador, mantener el dispositivo balanceado.
-- **Comunicación**: 
+  - Motores: Éstos son los encargados de cambiar el movimiento angular del robot logrando, con ordenes enviadas del microcontrolador, mantener el robot balanceado.
+- **Comunicación**: En ésta se encuentran los canales de comunicación que serán utilizados en el proyecto:
+  - Computadora / Smartphone: Tanto por Bluetooth como por Wi-Fi el robot se podrá conectar con dispositivos externos y comunicarse con los mismos
 
 
 
