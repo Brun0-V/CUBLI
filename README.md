@@ -40,7 +40,8 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
 - **Actuadores**: En ésta se encuentran los actuadores utilizados en el proyecto:
   - Motores: Éstos son los encargados de cambiar el movimiento angular del robot logrando, con ordenes enviadas del microcontrolador, mantener el robot balanceado.
 - **Comunicación**: En ésta se encuentran los canales de comunicación que serán utilizados en el proyecto:
-  - Computadora / Smartphone: Tanto por Bluetooth como por Wi-Fi el robot se podrá conectar con dispositivos externos y comunicarse con los mismos
+  - Computadora: Esta podrá comunicarse con el robot a través de la comunicación serial cableada para enviar datos del funcionamiento del mismo y variables del entorno en tiempo real.
+  - Smartphone: Estos podrán comunicarse por una conexión inalámbrica, como Bluetooth o Wi-Fi para monitoreo y envio de datos.
 
 
 
