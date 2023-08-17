@@ -1,7 +1,7 @@
 # Ante proyecto | Vega Ferrería <!-- omit from toc -->
 
-## Indice <!-- omit from toc -->
-- [1. Descripción de la problematica](#1-descripción-de-la-problematica)
+### Indice <!-- omit from toc -->
+- [1. Descripción de la problemática](#1-descripción-de-la-problemática)
 - [2. Características del sistema](#2-características-del-sistema)
 - [3. Estado del arte / Antecedentes / Implementaciones previas.](#3-estado-del-arte--antecedentes--implementaciones-previas)
 - [4. Estudio de Factibilidad - Investigación de soluciones](#4-estudio-de-factibilidad---investigación-de-soluciones)
@@ -11,14 +11,19 @@
 
 
 ### 1. Descripción de la problemática
+El proyecto presentado consiste del balanceo de figuras, en este caso un cubo, sobre uno o más de sus ejes. Ésto es logrado a través del uso de ruedas de reacción para invertir la caída del cubo, logrando asi la estabilidad del mismo sobre una arista o esquina de este.
 
+Esta tecnología puede ser transpolada a un caso mucho mayor, como el posicionamiento de objetos en el espacio, donde poder reajustar el angulo de estos sin el uso de combustibles.
 
+Junto a su uso en la ingeniería espacial, el proyecto da una introducción a los alumnos a nuevas tecnologías como el control PID (**P**roporcional, **I**ntegral, **D**erivativo) y abre la puerta para el aprendizaje sobre todo el respaldo que le dá la fisica al mismo. 
 
 ### 2. Características del sistema
-Implementaciones previas.
-Detallar cuáles características serán obligatorias de realizar y cuáles serán las optativas / futuras mejoras
+» Detallar cuáles características serán obligatorias de realizar y cuáles serán las optativas / futuras mejoras
+
+Como caracteristicas obligatorias, el cubo debe contar con un microcontrolador, el acelerómetro y giroscopio como sus sensores, balanceo sobre 1 (uno) de sus ejes para lo que se usaría 1 motor como minimo. Sobre esa base se le puede dar mas funcionalidad, la primera que se piensa abordar es el balance sobre los 3 (tres) ejes del mismo, pasando de balancearse sobre una arista, a balancearse sobre una de sus esquinas. Luego de esto, la implementación de frenos en las ruedas de reaccion para que el mismo pueda "saltar", asi como también la conexion con un dispositivo externo (Computadora / Smartphone) para monitoreo de sensores y/o control del robot.
+
 ### 3. Estado del arte / Antecedentes / Implementaciones previas.
-En la búsqueda de soluciones para proyectos similares o relacionados con el control y la estabilidad en la robótica, se pueden encontrar varios antecedentes que destacan por su enfoque en el equilibrio y el movimiento dinámico de objetos. Uno de los ejemplos más notables es el "Cubli," un dispositivo robótico desarrollado por investigadores de ETH Zürich que presenta las siguientes características clave:
+En la búsqueda de soluciones para proyectos similares o relacionados con el control y la estabilidad en la robótica, se pueden encontrar varios antecedentes que destacan por su enfoque en el equilibrio y el movimiento dinámico de objetos. Uno de los ejemplos más notables es el "Cubli" un dispositivo robótico desarrollado por investigadores de ETH Zürich que presenta las siguientes características clave:
 
 - **Equilibrio sobre una esquina**: El Cubli es capaz de mantenerse en equilibrio sobre una de sus esquinas. Esta habilidad demuestra un control preciso del centro de masa y conceptos avanzados de estabilidad.
 
@@ -31,18 +36,26 @@ En la búsqueda de soluciones para proyectos similares o relacionados con el con
 ### 4. Estudio de Factibilidad - Investigación de soluciones 
 » Realizar una investigación de cómo implementar el proyecto y proponer posibles soluciones comparándolas.
 
+Como ya se vió antes, éste proyecto ya ha sido construído por investigadores de ETH Zürich y sobre su [paper original](https://folk.ntnu.no/skoge/prost/proceedings/ecc-2013/data/papers/0829.pdf) se basó la matemática empleada en el proyecto.
 
+Luego que dichos investigadores publicaran un [video](https://www.youtube.com/watch?v=n_6p-1J551Y) demostrando el funcionamiento de "Cubli", este se hizo ampliamente famoso, llevando a más personas ajenas al proyecto original a recrearlo. Uno de esos fue un grupo de investigación, entre almunos y profesores del MIT, que demuestran que esta tecnología podria ser usada para robots modulares, que cambiaran su estructura para cada tarea necesaria ([Entrevista Original](https://www.youtube.com/watch?v=6aZbJS6LZbs)).
+
+Por fuera de grandes instituciones como lo es el MIT, numerosos estudiantes y personas aficionadas con la electrónica crearon sus propias versiones del robot "Cubli". Se dejan algunos que se consideran útiles en [este archivo](Resources/Links/Cubli-remakes.md).
+
+Una vez investigado multiples soluciones, se evaluaron cuales partes de cada uno se usarán en este proyecto:
+
+Como microcontrolador se utilizará el ESP32 y algunas de las razones por la que se lo eligió son: Su conectividad inalambrica, ya que cuenta con conexión inalambrica tanto por Wi-Fi como por Bluetooth; Su potente capacidad de procesamiento, este posee una velocidad de reloj de hasta 240 MHz y ofrece una capacidad de procesamiento significativa para ejecutar aplicaciones complejas; Y por último, su amplia gama de periféricos, ya que la placa ESP32 cuenta con una variedad de interfaces y periféricos, como puertos GPIO, UART, SPI, I2C, ADC y DAC, lo que permite interactuar con sensores, actuadores y otros dispositivos.
+
+Como acelerometro y giroscópio se utilizará el módulo MPU6050 ya que este cuenta con un acelerómetro de tres ejes que puede medir la aceleración lineal en las direcciones X, Y y Z.  Este módulo también incluye un giroscopio de tres ejes que mide la velocidad angular de rotación en torno a los mismos ejes (X, Y y Z). Esto permite detectar cambios en la orientación y la rotación. Y por último el MPU6050 se comunica a través del protocolo de comunicación I2C (Inter-Integrated Circuit), lo que lo hace fácil de integrar con el microcontrolador.
+
+Para controlar los motores se necesitarán 2 componentes, un puente H y un sensor de Efecto Hall. Como puente H se utilizará {**PUENTE H**} y como sensor de Efecto Hall se utilizará un sensor absoluto magnetico de 12 bits, que con una interfaz I2C, se comunicará con el ESP32 para informar la posición angular absoulta de cada motor.
 
 ### 5. Diagrama de Bloques 
-Realizar un diagrama en donde se detallen los bloques funcionales (no la tecnología
-empleada) y la relación entre cada uno.
-○ Describan en detalle cada uno de los bloques y sus relaciones.
-○ Detallar las etapas que van ser obligatorias de realizar con su funcionamiento y detallar
-Realizar un diagrama en donde se detallen los bloques funcionales (no la tecnología empleada) y la relación entre cada uno.
+» Realizar un diagrama en donde se detallen los bloques funcionales (no la tecnología empleada) y la relación entre cada uno.
 - Describan en detalle cada uno de los bloques y sus relaciones.
 - Detallar las etapas que van ser obligatorias de realizar con su funcionamiento y detallar que etapas serán opcionales y de implementaciones futuras
 
-![Diagrama de bloques simplificado](Images/Diagrama-Bloques.png)
+![Diagrama de bloques simplificado](Resources/Images/Diagrama-Bloques.png)
 
 Este diagrama de bloques se divide en 4 (cuatro) partes:
 - **Sensores**: En ésta se encuentran los sensores que se utilizarán en el proyecto:
@@ -70,18 +83,15 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
  3    |  12-bit Magnetic Rotary Position Sensor AS5600  | 2000 AR$ / 3.3 U$D*
  3    |                     (MOTOR)                     | (PRECIO)*
  1    |                    (BATERIA)                    | (PRECIO)*
+ 3    |                    (PUENTEH)                    | (PRECIO)*
 Total |                                                 | (PRECIO TOTAL)
 </div>
 
 *Todos los precios son tasados al (dd/mm/yyyy)
 
 ### 7. Planificación y distribución de Tareas
-○ Identificar las etapas (y sub-etapas) para la realización del proyecto
-○ Describir cada una de las etapas (y sub-etapas). Identificar, de forma clara y concisa, las
-correlatividades, los objetivos a lograr en cada una, y los pasos a realizar para concretarlas.
-○ Distribución de tareas entre los miembros del grupo.
-○ Diagramación de los tiempos de cada etapa (y sub-etapas)
-- Identificar las etapas (y sub-etapas) para la realización del proyecto
-- Describir cada una de las etapas (y sub-etapas). Identificar, de forma clara y concisa, las correlatividades, los objetivos a lograr en cada una, y los pasos a realizar para concretarlas.
-- Distribución de tareas entre los miembros del grupo.
-- Diagramación de los tiempos de cada etapa (y sub-etapas)
+» Identificar las etapas (y sub-etapas) para la realización del proyecto. 
+Describir cada una de las etapas (y sub-etapas). 
+Identificar, de forma clara y concisa, las correlatividades, los objetivos a lograr en cada una, y los pasos a realizar para concretarlas. 
+Distribución de tareas entre los miembros del grupo. 
+Diagramación de los tiempos de cada etapa (y sub-etapas)
