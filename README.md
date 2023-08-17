@@ -45,5 +45,3 @@ correlatividades, los objetivos a lograr en cada una, y los pasos a realizar par
 - Describir cada una de las etapas (y sub-etapas). Identificar, de forma clara y concisa, las correlatividades, los objetivos a lograr en cada una, y los pasos a realizar para concretarlas.
 - Distribución de tareas entre los miembros del grupo.
 - Diagramación de los tiempos de cada etapa (y sub-etapas)
-
-sss
