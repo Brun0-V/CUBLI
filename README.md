@@ -84,7 +84,7 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
  3    |                     (MOTOR)                     | (PRECIO)*
  1    |                    (BATERIA)                    | (PRECIO)*
  3    |                    (PUENTEH)                    | (PRECIO)*
-1/dia | Pipas gigantes | 200AR$/dia
+1/dia |                 Pipas gigantes                  | 200AR$
 Total |                                                 | (PRECIO TOTAL)
 </div>
 
