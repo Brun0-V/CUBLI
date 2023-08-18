@@ -15,7 +15,7 @@ El proyecto presentado consiste del balanceo de figuras, en este caso un cubo, s
 
 Esta tecnología puede ser transpolada a un caso mucho mayor, como el posicionamiento de objetos en el espacio, donde poder reajustar el angulo de estos sin el uso de combustibles.
 
-Junto a su uso en la ingeniería espacial, el proyecto da una introducción a los alumnos a nuevas tecnologías como el control PID (**P**roporcional, **I**ntegral, **D**erivativo) y abre la puerta para el aprendizaje sobre todo el respaldo que le dá la fisica al mismo. 
+Junto a su uso en la ingeniería espacial, el proyecto da una introducción a los estudiantes a nuevas tecnologías como el control PID (**P**roporcional, **I**ntegral, **D**erivativo) y abre la puerta para el aprendizaje sobre todo el respaldo que le dá la fisica al mismo. 
 
 ### 2. Características del sistema
 » Detallar cuáles características serán obligatorias de realizar y cuáles serán las optativas / futuras mejoras
