@@ -76,19 +76,19 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
 
 <div align="center">
 
- Cant |                       Item                      | Precio
+ Cant |                      Item                       | Precio
 :----:|-------------------------------------------------|---------
- 1    |          ESP32 - Wi-Fi & Bluetooth MCU          | 4200AR$ / 7U$D*
- 1    |      Modulo Acelerometro Giróscopo MPU6050      | 1800AR$ / 3U$D*
- 3    |  12-bit Magnetic Rotary Position Sensor AS5600  | 2000 AR$ / 3.3 U$D*
- 3    |                     (MOTOR)                     | (PRECIO)*
- 1    |                    (BATERIA)                    | (PRECIO)*
- 3    |                    (PUENTEH)                    | (PRECIO)*
-1/dia |                 Pipas gigantes                  | 200AR$
-Total |                                                 | (PRECIO TOTAL)
+ 1    |          ESP32 - Wi-Fi & Bluetooth MCU          | 5400 AR$ / 7,5 U$D*
+ 1    |      Modulo Acelerometro Giróscopo MPU6050      | 2500 AR$ / 3,5 U$D*
+ 1    |  12-bit Magnetic Rotary Position Sensor AS5600  | 2000 AR$ / 2,7 U$D*
+ 1    |                  TT MOTOR DC 6V                 | 1500 AR$ / 2 U$D*
+ 1    |               Doble Punte H L298N               | 3000 AR$ / 4 U$D*
+ 2    |             Pila 18650 4.2V 7800mAh             | 1500 AR$ / 2 U$D*
+Total |                                                 | 17.400 ARS / 24 U$D
+
 </div>
 
-*Todos los precios son tasados al (dd/mm/yyyy)
+*Todos los precios son tasados al (18/08/2023)
 
 ### 7. Planificación y distribución de Tareas
 » Identificar las etapas (y sub-etapas) para la realización del proyecto. 
