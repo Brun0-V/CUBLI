@@ -18,8 +18,6 @@ Esta tecnología puede ser transpolada a un caso mucho mayor, como el posicionam
 Junto a su uso en la ingeniería espacial, el proyecto da una introducción a los estudiantes a nuevas tecnologías como el control PID (**P**roporcional, **I**ntegral, **D**erivativo) y abre la puerta para el aprendizaje sobre todo el respaldo que le dá la fisica al mismo. 
 
 ### 2. Características del sistema
-» Detallar cuáles características serán obligatorias de realizar y cuáles serán las optativas / futuras mejoras
-
 Como caracteristicas obligatorias, el cubo debe contar con un microcontrolador, el acelerómetro y giroscopio como sus sensores, balanceo sobre 1 (uno) de sus ejes para lo que se usaría 1 motor como minimo. Sobre esa base se le puede dar mas funcionalidad, la primera que se piensa abordar es el balance sobre los 3 (tres) ejes del mismo, pasando de balancearse sobre una arista, a balancearse sobre una de sus esquinas. Luego de esto, la implementación de frenos en las ruedas de reaccion para que el mismo pueda "saltar", asi como también la conexion con un dispositivo externo (Computadora / Smartphone) para monitoreo de sensores y/o control del robot.
 
 ### 3. Estado del arte / Antecedentes / Implementaciones previas.
@@ -34,8 +32,6 @@ En la búsqueda de soluciones para proyectos similares o relacionados con el con
 - **Aplicaciones potenciales**: Aunque el Cubli puede no tener aplicaciones prácticas directas, sus conceptos y tecnologías pueden ser relevantes para sistemas de estabilización, maniobras espaciales y otras áreas de la robótica donde el control de movimiento y la estabilidad son esenciales.
 
 ### 4. Estudio de Factibilidad - Investigación de soluciones 
-» Realizar una investigación de cómo implementar el proyecto y proponer posibles soluciones comparándolas.
-
 Como ya se vió antes, éste proyecto ya ha sido construído por investigadores de ETH Zürich y sobre su [paper original](https://folk.ntnu.no/skoge/prost/proceedings/ecc-2013/data/papers/0829.pdf) se basó la matemática empleada en el proyecto.
 
 Luego que dichos investigadores publicaran un [video](https://www.youtube.com/watch?v=n_6p-1J551Y) demostrando el funcionamiento de "Cubli", este se hizo ampliamente famoso, llevando a más personas ajenas al proyecto original a recrearlo. Uno de esos fue un grupo de investigación, entre almunos y profesores del MIT, que demuestran que esta tecnología podria ser usada para robots modulares, que cambiaran su estructura para cada tarea necesaria ([Entrevista Original](https://www.youtube.com/watch?v=6aZbJS6LZbs)).
@@ -51,10 +47,6 @@ Como acelerometro y giroscópio se utilizará el módulo MPU6050 ya que este cue
 Para controlar los motores se necesitarán 2 componentes, un puente H y un sensor de Efecto Hall. Como puente H se utilizará {**PUENTE H**} y como sensor de Efecto Hall se utilizará un sensor absoluto magnetico de 12 bits, que con una interfaz I2C, se comunicará con el ESP32 para informar la posición angular absoulta de cada motor.
 
 ### 5. Diagrama de Bloques 
-» Realizar un diagrama en donde se detallen los bloques funcionales (no la tecnología empleada) y la relación entre cada uno.
-- Describan en detalle cada uno de los bloques y sus relaciones.
-- Detallar las etapas que van ser obligatorias de realizar con su funcionamiento y detallar que etapas serán opcionales y de implementaciones futuras
-
 ![Diagrama de bloques simplificado](Resources/Images/Diagrama-Bloques.png)
 
 Este diagrama de bloques se divide en 4 (cuatro) partes:
