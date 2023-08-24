@@ -92,7 +92,7 @@ Total |                                                 | 17.400 ARS / 24 U$D
 </div>
 
 #### Etapas y Sub-Etapas
-- **Investigación:** Investigación de soluciones y creación del Anteproyecto.
+- **Investigación:** Busqueda de soluciones anteriores y creación del Anteproyecto.
 - **Diseño de Chasis:** Ésta etapa está dividida en dos partes, en la primera se diseñará un prototipo para hacer un test con el eje fijo, y en la segunda se diseñará el chasis con forma de cubo para poder hacer un montaje de los componentes permanente.
 - **Primer Test con Eje Fijo:** En este período se harán las pruebas de sensores y motores, en un chasis que tiene un único eje de movimiento para facilitar la implementación.
 - **Diseño de PCB:** Diseño de un shield para la placa ESP32, su función será tener las conexiónes entre el microcontrolador y los sensores y actuadores
