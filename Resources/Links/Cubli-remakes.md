@@ -2,6 +2,8 @@
 
 [![The Cubli: a cube that can jump up, balance, and 'walk'](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dn_6p-1J551Y)](https://www.youtube.com/watch?v=n_6p-1J551Y)
 
+https://idsc.ethz.ch/research-dandrea/research-projects/archive/cubli.html
+
 ### Entrevista a estudiantes del MIT:
 
 [![Small cubes that self-assemble](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6aZbJS6LZbs)](https://www.youtube.com/watch?v=6aZbJS6LZbs)
