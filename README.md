@@ -94,7 +94,7 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
 
 
 #### Etapas y Sub-Etapas
-- **Investigación:** Investigamos implementaciones anteriores del Cubli en otros entornos y como implementarlas al nuestro con nuestros componentes.
+- **Investigación:** Investigamos implementaciones anteriores del proyecto en otros entornos y como implementarlas al nuestro con nuestros componentes.
 - **Diseño de Chasis:** Ésta etapa está dividida en dos partes, en la primera se diseñará un prototipo el cual será una sola cara del cubo con un agujero en una esquina el cual se fijara a un punto fijo que pivota. En la segunda se diseñará el chasis con forma de cubo para poder hacer un montaje de los componentes final.
 - **Primer Test con Eje Fijo:** En este período se harán las primeras pruebas de sensores y motores, en un chasis que tiene un único eje de movimiento para facilitar la implementación.
 - **Diseño de PCB:** Diseño de un shield para la placa ESP32, su función será tener las conexiónes entre el microcontrolador, los sensores y los actuadores.
