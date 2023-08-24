@@ -8,6 +8,7 @@
 - [5. Diagrama de Bloques](#5-diagrama-de-bloques)
 - [6. Análisis de Costos](#6-análisis-de-costos)
 - [7. Planificación y distribución de Tareas](#7-planificación-y-distribución-de-tareas)
+  - [Etapas y Sub-Etapas](#etapas-y-sub-etapas)
 
 
 ### 1. Descripción de la problemática
@@ -90,16 +91,11 @@ Total |                                                 | 17.400 ARS / 24 U$D
 
 </div>
 
-
-
-
-
-
-
-» Identificar las etapas (y sub-etapas) para la realización del proyecto. 
-Describir cada una de las etapas (y sub-etapas). 
-Identificar, de forma clara y concisa, las correlatividades, los objetivos a lograr en cada una, y los pasos a realizar para concretarlas. 
-Distribución de tareas entre los miembros del grupo. 
-Diagramación de los tiempos de cada etapa (y sub-etapas)
-
-
+#### Etapas y Sub-Etapas
+- **Investigación:** Investigación de soluciones y creación del Anteproyecto.
+- **Diseño de Chasis:** Ésta etapa está dividida en dos partes, en la primera se diseñará un prototipo para hacer un test con el eje fijo, y en la segunda se diseñará el chasis con forma de cubo para poder hacer un montaje de los componentes permanente.
+- **Primer Test con Eje Fijo:** En este período se harán las pruebas de sensores y motores, en un chasis que tiene un único eje de movimiento para facilitar la implementación.
+- **Diseño de PCB:** Diseño de un shield para la placa ESP32, su función será tener las conexiónes entre el microcontrolador y los sensores y actuadores
+- **Creación de PCB:** Armado físico del PCB ya diseñado, junto con el montaje de componentes
+- **Implementación de Funciones:** Creación de un código para lograr el funcionamiento del proyecto.
+- **Armado Final:** Montaje de componentes en el chasis y calibrado de sensores y actuadores para un buen funcionamiento
