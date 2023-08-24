@@ -83,6 +83,19 @@ Total |                                                 | 17.400 ARS / 24 U$D
 *Todos los precios son tasados al (18/08/2023)
 
 ### 7. Planificación y distribución de Tareas
+
+<div align="center">
+
+![Diagrama de Gantt](Resources/Images/Diagrama-de-Gantt.png)
+
+</div>
+
+
+
+
+
+
+
 » Identificar las etapas (y sub-etapas) para la realización del proyecto. 
 Describir cada una de las etapas (y sub-etapas). 
 Identificar, de forma clara y concisa, las correlatividades, los objetivos a lograr en cada una, y los pasos a realizar para concretarlas. 
