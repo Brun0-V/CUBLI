@@ -94,10 +94,10 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
 
 
 #### Etapas y Sub-Etapas
-- **Investigación:** Busqueda de soluciones anteriores y creación del Anteproyecto.
-- **Diseño de Chasis:** Ésta etapa está dividida en dos partes, en la primera se diseñará un prototipo para hacer un test con el eje fijo, y en la segunda se diseñará el chasis con forma de cubo para poder hacer un montaje de los componentes permanente.
-- **Primer Test con Eje Fijo:** En este período se harán las pruebas de sensores y motores, en un chasis que tiene un único eje de movimiento para facilitar la implementación.
-- **Diseño de PCB:** Diseño de un shield para la placa ESP32, su función será tener las conexiónes entre el microcontrolador y los sensores y actuadores
-- **Creación de PCB:** Armado físico del PCB ya diseñado, junto con el montaje de componentes
-- **Implementación de Funciones:** Creación de un código para lograr el funcionamiento del proyecto.
-- **Armado Final:** Montaje de componentes en el chasis y calibrado de sensores y actuadores para un buen funcionamiento
+- **Investigación:** Investigamos implementaciones anteriores del Cubli en otros entornos y como implementarlas al nuestro con nuestros componentes.
+- **Diseño de Chasis:** Ésta etapa está dividida en dos partes, en la primera se diseñará un prototipo el cual será una sola cara del cubo con un agujero en una esquina el cual se fijara a un punto fijo que pivota. En la segunda se diseñará el chasis con forma de cubo para poder hacer un montaje de los componentes final.
+- **Primer Test con Eje Fijo:** En este período se harán las primeras pruebas de sensores y motores, en un chasis que tiene un único eje de movimiento para facilitar la implementación.
+- **Diseño de PCB:** Diseño de un shield para la placa ESP32, su función será tener las conexiónes entre el microcontrolador, los sensores y los actuadores.
+- **Creación de PCB:** Armado físico del PCB ya diseñado, junto con el montaje de componentes.
+- **Implementación de Funciones:** Vamos a ir implementando funciones y probandolas mientras progresamos.
+- **Armado Final:** Montaje de componentes en el chasism, calibrado de sensores y actuadores para el correcto funcionamiento
