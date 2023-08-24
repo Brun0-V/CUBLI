@@ -77,7 +77,7 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
  1    |                  TT MOTOR DC 6V                 | 1500 AR$ / 2 U$D*
  1    |               Doble Punte H L298N               | 3000 AR$ / 4 U$D*
  2    |             Pila 18650 4.2V 7800mAh             | 1500 AR$ / 2 U$D*
-Total |                                                 | 17.400 ARS / 24 U$D
+ |     |                                                | Total: 17.400 ARS / 24 U$D
 
 </div>
 
@@ -90,7 +90,7 @@ Total |                                                 | 17.400 ARS / 24 U$D
 ![Diagrama de Gantt](Resources/Images/Diagrama-de-Gantt.png)
 
 </div>
-* El tiempo comprendido comienza el 24/8/2023 (Semana 0) y termina el 3/11/2023 (Semana 10)
+* El tiempo comprendido comienza el 17/8/2023 (Semana 0) y termina el 3/11/2023 (Semana 10)
 
 
 #### Etapas y Sub-Etapas
