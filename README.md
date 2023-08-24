@@ -103,4 +103,3 @@ Distribución de tareas entre los miembros del grupo.
 Diagramación de los tiempos de cada etapa (y sub-etapas)
 
 
-https://idsc.ethz.ch/research-dandrea/research-projects/archive/cubli.html
