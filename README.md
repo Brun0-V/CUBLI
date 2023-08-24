@@ -90,6 +90,8 @@ Total |                                                 | 17.400 ARS / 24 U$D
 ![Diagrama de Gantt](Resources/Images/Diagrama-de-Gantt.png)
 
 </div>
+* El tiempo comprendido comienza el 24/8/2023 (Semana 0) y termina el 3/11/2023 (Semana 10)
+
 
 #### Etapas y Sub-Etapas
 - **Investigación:** Investigamos implementaciones anteriores del Cubli en otros entornos y como implementarlas al nuestro con nuestros componentes.
