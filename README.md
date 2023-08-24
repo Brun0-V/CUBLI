@@ -100,4 +100,4 @@ Este diagrama de bloques se divide en 4 (cuatro) partes:
 - **Diseño de PCB:** Diseño de un shield para la placa ESP32, su función será tener las conexiónes entre el microcontrolador, los sensores y los actuadores.
 - **Creación de PCB:** Armado físico del PCB ya diseñado, junto con el montaje de componentes.
 - **Implementación de Funciones:** Vamos a ir implementando funciones y probandolas mientras progresamos.
-- **Armado Final:** Montaje de componentes en el chasism, calibrado de sensores y actuadores para el correcto funcionamiento
+- **Armado Final:** Montaje de componentes en el chasis, calibrado de sensores y actuadores para el correcto funcionamiento
