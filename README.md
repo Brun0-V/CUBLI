@@ -1,5 +1,5 @@
 # Ante proyecto | Vega Ferrería <!-- omit from toc -->
-
+## Profesor: Juan Ignacio D'Amore
 ### Indice <!-- omit from toc -->
 - [1. Descripción de la problemática](#1-descripción-de-la-problemática)
 - [2. Características del sistema](#2-características-del-sistema)
