@@ -1,9 +1,17 @@
+String mergeString(int var1, int var2){
+  String cadena = "";
+  cadena = "{";
+  cadena = cadena + "\"acc_val\":\"" + var1 + "\",";
+  cadena = cadena + "\"angle_val\":\"" + var2 + "\"";
+  cadena = cadena + "}";
+  return cadena;
+}
+
 void handleRoot() {
- String s = MAIN_page; //Read HTML contents
- server.send(200, "text/html", s); //Send web page
+ server.send(200, "text/html", MAIN_page); //Send web page
 }
  
-void handleADC() {
+void sendData() {
   String adcValue = texto_send; // SEND TEXT FROM SERIAL MONITOR.
   server.send(200, "text/plane", adcValue); //Send ADC value only to client ajax request
 }

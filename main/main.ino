@@ -13,9 +13,9 @@
 #define   sensor      15
 #define   _2PI        6.28318530718f
 
-#define   InA_m1      35       // INA right motor pin 
-#define   InB_m1      32       // INB right motor pin
-#define   m1PWM       34       // PWM right motor pin
+#define   InA_m1      17       // INA right motor pin 
+#define   InB_m1      18       // INB right motor pin
+#define   m1PWM       19       // PWM right motor pin
 
 #define   accSens   0          // 0 = 2g, 1 = 4g, 2 = 8g, 3 = 16g
 #define   gyroSens  1          // 0 = 250rad/s, 1 = 500rad/s, 2 1000rad/s, 3 = 2000rad/s
@@ -72,27 +72,29 @@ char caracter = '0';
 String texto = "";
 String texto_send = "";
 
+
 void setup() {
   Serial.begin(115200);
+  
+//-------------------------------------------------//
 
   pinMode(InA_m1, OUTPUT); 
   pinMode(InB_m1, OUTPUT); 
   pinMode(m1PWM, OUTPUT);  
   pinMode(sensor, INPUT);
-
-
+  
 //-------------------------------------------------//
 
-#IFDEF AP
+//#IFDEF AP
   Serial.println("\n[*] Creating AP");                  
   WiFi.mode(WIFI_AP);
   WiFi.softAP(ssid, password);                              //Conexión de la placa
   Serial.print("[+] AP Created with IP Gateway ");
   Serial.println(WiFi.softAPIP());
-#ENDIF
+//#ENDIF
 
 //-------------------------------------------------//
-
+/*
 #IFDEF STA
   WiFi.mode(WIFI_STA); //Connect to your wifi
   WiFi.begin(ssid, password);
@@ -108,11 +110,11 @@ void setup() {
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP()); //Direccion IP de la placa
 #ENDIF
-
+*/
 //-------------------------------------------------//
 
   server.on("/", handleRoot);
-  server.on("/readADC", handleADC);
+  server.on("/webServer", sendData);
   server.begin();
   Serial.println("HTTP server started");
 
@@ -132,15 +134,17 @@ void loop() {
       gyroZfilt = alpha * gyroZ + (1 - alpha) * gyroZfilt;
       pwm = constrain(pGain * robot_angle + iGain * gyroZfilt + aGain * motor_speed_enc + sGain * motor_speed, -255, 255);
       motor_speed_enc = getVelocity();
-      //Motor_control(pwm);
-      //motor_speed += motor_speed_enc;
+      Motor_control(pwm);
+      motor_speed += motor_speed_enc;
     } else {
-      //Motor_control(0);
-      //motor_speed = 0;
+      Motor_control(0);
+      motor_speed = 0;
     }
     previousT = currentT;
   }
-  texto_send = String(currentT);  
+  texto_send = mergeString(robot_angle, pwm);
+  Serial.println(texto_send);
+  delay(1000);
 }
 
 
