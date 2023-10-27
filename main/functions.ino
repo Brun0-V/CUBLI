@@ -1,4 +1,4 @@
-String mergeString(int var1, int var2){
+String mergeString(float var1, int var2){
   String cadena = "";
   cadena = "{";
   cadena = cadena + "\"acc_val\":\"" + var1 + "\",";

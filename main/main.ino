@@ -85,17 +85,17 @@ void setup() {
   
 //-------------------------------------------------//
 
-//#IFDEF AP
+#ifdef AP
   Serial.println("\n[*] Creating AP");                  
   WiFi.mode(WIFI_AP);
   WiFi.softAP(ssid, password);                              //Conexión de la placa
   Serial.print("[+] AP Created with IP Gateway ");
   Serial.println(WiFi.softAPIP());
-//#ENDIF
+#endif
 
 //-------------------------------------------------//
-/*
-#IFDEF STA
+
+#ifdef STA
   WiFi.mode(WIFI_STA); //Connect to your wifi
   WiFi.begin(ssid, password);
   Serial.println("Connecting to ");
@@ -109,8 +109,8 @@ void setup() {
   Serial.println(ssid);
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP()); //Direccion IP de la placa
-#ENDIF
-*/
+#endif
+
 //-------------------------------------------------//
 
   server.on("/", handleRoot);
@@ -143,8 +143,6 @@ void loop() {
     previousT = currentT;
   }
   texto_send = mergeString(robot_angle, pwm);
-  Serial.println(texto_send);
-  delay(1000);
 }
 
 

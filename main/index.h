@@ -17,8 +17,8 @@ const char MAIN_page[] PROGMEM = R"=====(
 
 <div class="card">
   <h4>Pendulo Invertido - Vega Ferreria</h4><br>
-  <h1>Accelerometer Value: <span id="acc_val">0</span></h1><br>
-  <h1>Angle Value: <span id="angle_val">0</span></h1><br>
+  <h1>Robot Angle: <span id="acc_val">0</span></h1><br>
+  <h1>Motor Speed: <span id="angle_val">0</span></h1><br>
 </div>
 <script>
 
@@ -30,9 +30,9 @@ function getData() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("acc_val").innerHTML = response.accelerometer;
-      document.getElementById("angle_val").innerHTML = response.angle;
-      window.AppInventor.setWebViewString("Accelerometer: " + response.accelerometer + ", Angle: " + response.angle);
+      var response = JSON.parse(this.responseText);
+      document.getElementById("acc_val").innerHTML = response.acc_val;
+      document.getElementById("angle_val").innerHTML = response.angle_val;
     }
   };
   xhttp.open("GET", "webServer", true);
